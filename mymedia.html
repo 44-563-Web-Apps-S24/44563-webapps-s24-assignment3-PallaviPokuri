@@ -50,23 +50,18 @@
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Code Display Section</title>
+                <title>Snippet Code</title>
             </head>    
             <hr>    
             <body>
                 <hr>
-                <h2>snippet Code</h2>
-                <pre>
-                    const fileSystem = require('fs')
-
-                    const storeData = (data, path) => {
-                      try {
-                        fileSystem.writeFileSync(path, JSON.stringify(data))
-                      } catch (error) {
-                        console.error(error)
-                      }
-                    }
-                </pre>
+                <h2>Snippet Code</h2>
+                <p>It is the data to a JSON file using python</p>
+            <pre>import json
+    def write_json_to_file(data, filepath):
+    with open(filename, "w") as f: 
+    json.dump(data, f, indent=4) 
+            </pre>
                 <a href="https://code.pieces.app/collections/node-js">It is the snippet code link</a>
             </body>
     </body>
