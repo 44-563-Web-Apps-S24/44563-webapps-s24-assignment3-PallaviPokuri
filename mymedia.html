@@ -17,7 +17,8 @@
             </p>
         </footer>
         <hr>
-        <table>
+        <p>Table describes the facts about the books which i liked</p>
+        <table border="3px">
             <tr>
                  <th>Books</th>
                  <th>Reason for Recommendation</th>
@@ -44,5 +45,29 @@
                 <td>Amish Thripati</td>
             </tr>
         </table>
+        
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Code Display Section</title>
+            </head>    
+            <hr>    
+            <body>
+                <hr>
+                <h2>snippet Code</h2>
+                <pre>
+                    const fileSystem = require('fs')
+
+                    const storeData = (data, path) => {
+                      try {
+                        fileSystem.writeFileSync(path, JSON.stringify(data))
+                      } catch (error) {
+                        console.error(error)
+                      }
+                    }
+                </pre>
+                <a href="https://code.pieces.app/collections/node-js">It is the snippet code link</a>
+            </body>
     </body>
 </html>
